@@ -1,0 +1,22 @@
+{
+  "name": "30-days-of-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon 9/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetharunerturk/30-days-of-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmetharunerturk/30-days-of-JS/issues"
+  },
+  "homepage": "https://github.com/ahmetharunerturk/30-days-of-JS#readme",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

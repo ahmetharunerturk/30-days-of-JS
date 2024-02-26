@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day </title>
+    <title>Day 10</title>
 </head>
 <body>
     
     <script src="./index.js"></script>
 </body>
 </html>
+
+const setNumbers = new Set();
+
+for(let i=0; i<10; i++){
+    setNumbers.add(i)
+}
+
+console.log(setNumbers)
+setNumbers.delete(0)
+console.log(setNumbers)
+setNumbers.clear()
+
+countries = [
+    ['Finland', 'Helsinki'],
+    ['Sweden', 'Stockholm'],
+    ['Norway', 'Oslo'],
+]
+
+const mapCountries = new Map(countries);
+
+for (const country of mapCountries) {
+    console.log(country)
+}
+
+let c = [...a, ...b];

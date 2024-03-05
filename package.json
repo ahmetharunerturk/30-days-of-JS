@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon 18/index.js"
+    "start": "nodemon 19/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ahmetharunerturk/30-days-of-JS#readme",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.0"
   }
 }
